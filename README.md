@@ -1,7 +1,6 @@
 # Object-Oriented Programming in C
 
-![Иллюстрация к проекту](https://github.com/jon/coolproject/raw/master/image/image.png)
-
+[![Header](https://github.com/krl4k/oop_in_C/blob/master/unnamed.jpg)]()
 
 ## Materials
 [Object-Oriented Programming in C](https://www.state-machine.com/doc/AN_OOP_in_C.pdf)
