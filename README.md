@@ -4,3 +4,5 @@
 
 ## Materials
 [Object-Oriented Programming in C](https://www.state-machine.com/doc/AN_OOP_in_C.pdf)
+
+[Object-Oriented Programming With ANSI-C](https://planetpdf.com/codecuts/pdfs/ooc.pdf)

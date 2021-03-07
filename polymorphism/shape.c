@@ -27,6 +27,17 @@ static uint32_t Shape_area_(Shape const * const me) {
 static void Shape_draw_(Shape const * const me) {
 	assert(0); /* purely-virtual function should never be called */
 }
+
+
+/* "getter" operations implementation */
+int16_t Shape_getX(Shape * const me) {
+	return me->x;
+}
+
+int16_t Shape_getY(Shape * const me) {
+	return me->y;
+}
+
 /* the following code finds the largest-area shape in the collection */
 Shape const *largestShape(Shape const *shapes[], uint32_t nShapes) {
 	Shape const *s = (Shape *)0;

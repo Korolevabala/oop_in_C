@@ -25,5 +25,5 @@ static uint32_t Rectangle_area_(Shape const * const me) {
 }
 static void Rectangle_draw_(Shape const * const me) {
 	Rectangle const * const me_ = (Rectangle const *)me; /* explicit downcast */
-	printf("Rectangle_draw_(x=%d,y=%d,width=%d,height=%d)\n",me_->super.x, me_->super.y, me_->width, me_->height);
+	printf("Rectangle_draw_(x=%-3d,y=%-3d,width=%-3d,height=%-3d)\n",me_->super.x, me_->super.y, me_->width, me_->height);
 }

@@ -1,7 +1,7 @@
 #ifndef RECT_H
 #define RECT_H
 #include <inttypes.h>
-#include "../encapsulation/shape.h" /* the base class interface */
+#include "shape.h" /* the base class interface */
 /* Rectangle's attributes... */
 typedef struct {
 	Shape super; /* <== inherits Shape */
